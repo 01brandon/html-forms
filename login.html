@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
 </head>
+
 <body>
     <h2>User Login</h2>
     <p>Hi there, welcome back, please log in to access your account's details </p>
-     <form>
+    <form>
         <label for="username">Username</label>
         <input type="text" placeholder="User01" required minlength="6">
         <br>
         <label for="password">Password</label>
         <input type="password" required placeholder="*********" minlength="6">
         <br>
-        <button type="submit"><font color="blue">Submit</font></button>
-        <button type="reset"><font color="red">Reset</font></button>
-     </form>
+        <br>
+        <button type="submit">
+            <font color="blue">Sign in</font>
+        </button>
+        <button type="reset">
+            <font color="red">Reset</font>
+        </button>
+        <br>
+        <br>
+        <label for="keepsigned">Keep You signed in?</label>
+        <input type="checkbox" id="keepsigned" name="keepsigned">
+        <br>
+        <a href="#">Forgot password?</a>
+        <a href="#">Forgot Username?</a>
+        <p>Don't have an account?</p><a href="#">Register here</a>
+    </form>
 </body>
+
 </html>
