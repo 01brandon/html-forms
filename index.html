@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" maxlength="10">
+        <br>
+        <label for="password">Password</label>
+        <input type="password">
+        <br>
+        <label for="">Email</label>
+        <input type="email" placeholder="Kindly enter your email" required>
+        <br>
+        <label for="Age">Age</label>
+        <input type="number">
+        <br>
+        <label for="lang1">HTML</label>
+        <input type="radio" name="skill" id="lang1" value="html">
+
+        <label for="lang2">CSS</label>
+        <input type="radio" name="skill" id="lang2" value="CSS">
+
+        <label for="lang3">Javascript</label>
+        <input type="radio" name="skill" id="lang3" value="Javascript">
+
+        <label for="">Message</label>
+        <textarea name="" id="" cols="9" rows="3"></textarea>
+        <br>
+        <br>
+        <label for="feedback">Your Feedback</label>
+        <textarea name="user_feedback" id="feedback" cols="30"></textarea>
+        <br>
+        <br>
+        <label for="modules">Choose your current module</label>
+        <select name="modules" id="modules">
+            <option value="web-dev">Web Dev Fundamentals</option>
+            <option value="Javascript">Javascript</option>
+            <option value="react">React</option>
+            <option value="python">Python</option>
+            <option value="Django">Django</option>
+        </select>
+        <label for="resume">resume</label>
+        <input type="file" name="resume" id="resume" accept="pdf">
+        <button type="submit">submit</button>
+    </form>
+</body>
+
+</html>
