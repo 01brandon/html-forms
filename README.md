@@ -10,7 +10,7 @@ This is a responsive landing page for Zindua landing school.  This project simul
 
 ## Core Screenshots
 
-(![Landing page](image-4.png))
+![Landing page](image-4.png)
 
 ## Live Link
 [see my  website](https://01brandon.github.io/html-forms/)
